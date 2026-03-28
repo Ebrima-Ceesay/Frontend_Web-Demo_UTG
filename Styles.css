@@ -1,0 +1,110 @@
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    width: 100%;
+    padding: 0.7rem 0;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.nav-bar{
+    background-color: rgb(165, 184, 177);
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    border: 2px 2px 2px 2px;
+    border-style: solid;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 200px;
+    
+    
+}
+main{
+    position: relative;
+    top: 3rem;
+}
+.body-container{
+    display: flex;
+}
+.body-content{
+    width: 100%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+  
+}
+.sidebar{
+    background-color: white;
+    height: max-content;
+    position: static;
+    padding-left: 2px;
+    
+    
+    
+}
+.contents{
+    width: 100%;
+    border-radius: 25px solid black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    overflow: hidden;
+}
+.core-courses{
+    display: inline-flex;
+    padding-left: 3px;
+    padding-right: 3px;
+    column-gap: 1.5rem;
+    
+}
+.c-name{
+    margin-right: 25px;
+}
+.course-photo{
+    background-color: rgb(165, 184, 177);
+    width: 100%;
+    border: 2px solid grey;
+    padding: 10px 10px 10px 10px;
+}
+img{
+    height: 175px;
+    width: 175px;
+    float: left;
+    margin-left: 25px;
+}
+.home-page{
+    text-align: center;
+    align-content: center;
+    background-color: rgb(165, 184, 177);
+    height: 100px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 5px 5px 5px 5px;
+    border-bottom: 2px solid black;
+    
+}
+.all-courses{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    border-top: 2px solid black;
+    overflow: hidden;
+    column-gap:10rem;
+}
+button{
+    width: 100%;
+}
+.about{
+    align-content: center;
+    text-align: center;
+    background-color: rgb(165, 184, 177);
+    border-top: 2px solid black;
+    width: 100%;
+}
+.pr-courses{
+    margin-top: 2rem;
+    border-radius: 50%;
+    border-top-style: solid black;
+}
